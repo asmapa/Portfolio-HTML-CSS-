@@ -1,0 +1,357 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.class-one {
+    background-color: white;
+    height: 900px;
+    width: 100%;
+   position: relative;
+}
+
+
+.cloud-1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left:300px;
+}
+
+.cloud-2{
+    height: 200px;
+    width:200px;
+    position: absolute;
+    right: 40px;
+    bottom: 400px;
+}
+
+
+.mountain {
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: none;
+}
+
+.class-one>.class-two {
+    
+    position: absolute;
+    top:100px;
+    width:100%;
+}
+
+.class-one>.class-two > h1 {
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    font-size: 3.625rem;
+    font-weight: 800;
+}
+
+.class-one>.class-two > h2 {
+    text-align: center;
+    color: #66bfbf;
+    font-size: 2rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 200;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.middle-container .asma {
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.middle-container > .asma > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.middle-container > .asma > h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.middle-container > .asma > p {
+    color: #474747;
+    font-size: 1.5rem;
+    
+    
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 300px;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+}
+
+.skills > h2 {
+    color: #66bfbf;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2.5rem;
+    font-weight: 300px;
+    height: 60px;
+}
+
+.skills > .parant {
+    position: absolute;
+    right: 25%;
+    top:150px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(0.5, 0.5fr);
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+    row-gap: 1rem;
+    height: 700px;
+    column-gap: 2rem;
+    
+}
+
+.skills > .parant > .typing {
+    display: flex;
+    justify-content: center;
+}
+
+.skills > .parant > .typing > img {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.skills > .parant > .coding > h1 {
+   
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #11999e;
+    
+}
+
+.skills > .parant > .coding > p {
+    color: #474747;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+    width:100%;
+}
+
+.skills > .parant > .tea {
+    display: flex;
+    justify-content: center;
+}
+
+.skills > .parant > .tea > img {
+    height: 200px;
+    width: 200px;
+}
+
+.skills > .parant > .tea-content > h1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #11999e;
+   
+}
+
+.skills > .parant > .tea-content > p {
+    color: #474747;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+   
+}
+
+.contact-me {
+    position: relative;
+    
+    width: 100%;
+    height: 300px;
+    margin-bottom: 90px;
+}
+
+
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me > h1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #11999e;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-me > h3 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #11999e;
+    font-size: 20px;
+}
+
+.contact-me > p {
+    color: gray;
+    font-size: 15px;
+   
+    padding-bottom: 50px;
+}
+
+.contact-me .btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #66bfbf;
+    position: relative;
+}
+
+.footer > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 20px;
+    margin: 10px 20px;
+    position: absolute;
+}
+
+.footer > .anker1 {
+    left: calc(50% - 250px);
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.footer > .anker2 {
+    left: calc(50% - 50px);
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.footer > .anker3 {
+    left: calc(50% + 200px);
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.footer > p {
+    color: #ffffff;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 25px;
+    position: absolute;
+    top:200px;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+@media (min-width:481px) and (max-width:1200px){
+    .contact-me {
+        position: relative;
+        top:10px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 150px;
+    }
+
+    .skills {
+        
+        position: relative;
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        top: 60px;
+        bottom: 0px;
+    }
+
+    .middle-container > .asma > p {
+        color: #474747;
+        font-size: 1rem;
+        
+        
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-weight: 300px;
+    }
+
+    .mountain {
+        height: 500px;
+        width: 600px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        background: none;
+    }
+  }
+
+  @media (min-width: 319px) and (max-width: 480px){
+
+    .contact-me {
+        position: relative;
+        top:10px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .skills {
+        
+        position: relative;
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        top: 60px;
+        bottom: 0px;
+    }
+
+    .middle-container > .asma > p {
+        color: #474747;
+        font-size: 1rem;
+        
+        
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-weight: 300px;
+    }
+
+    .mountain {
+        height: 500px;
+        width: 600px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        background: none;
+    }
+   
+  }
+
+
+
